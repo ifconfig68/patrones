@@ -1,7 +1,8 @@
 import math
+#patron de familia de boejtos que se relaciona entre si
 
-# Interfaz para la fábrica abstracta de triángulos
-class TrianguloFactory:
+# Interfaz para la fábrica abstracta de triángulos fabricas concretas deben implementar
+class TrianguloFactory: 
     def crear_triangulo(self):
         pass
 
